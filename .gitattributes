@@ -9,7 +9,7 @@
 *.prefab merge=unityyamlmerge eol=lf
 *.physicsMaterial2D merge=unityyamlmerge eol=lf
 *.physicMaterial merge=unityyamlmerge eol=lf
-*.asset merge=unityyamlmerge eol=lf
+*.asset filter=lfs diff=lfs merge=lfs -text
 *.meta merge=unityyamlmerge eol=lf
 *.controller merge=unityyamlmerge eol=lf
 ## git-lfs ##
@@ -46,4 +46,3 @@
 *.rns filter=lfs diff=lfs merge=lfs -text
 *.reason filter=lfs diff=lfs merge=lfs -text
 *.lxo filter=lfs diff=lfs merge=lfs -text
-.dag filter=lfs diff=lfs merge=lfs -text
