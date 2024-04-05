@@ -114,23 +114,23 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: CloseOptions
-  - assembly: Assembly-CSharp
-    fullTypeName: OptionsScreen
-    methodName: ResLeft
-  - assembly: Assembly-CSharp
     fullTypeName: OptionsScreen
     methodName: ResRight
   - assembly: Assembly-CSharp
     fullTypeName: OptionsScreen
-    methodName: ApplyGraphics
+    methodName: ResLeft
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: OpenOptions
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: StartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: OptionsScreen
+    methodName: ApplyGraphics
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: CloseOptions
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: CloseOptions
@@ -192,49 +192,49 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16600}
+      Script: {instanceID: 16626}
     - Class: 114
-      Script: {instanceID: 16602}
+      Script: {instanceID: 16628}
     - Class: 114
-      Script: {instanceID: 16650}
+      Script: {instanceID: 16630}
     - Class: 114
-      Script: {instanceID: 16654}
+      Script: {instanceID: 16678}
     - Class: 114
-      Script: {instanceID: 17200}
+      Script: {instanceID: 16682}
     - Class: 114
-      Script: {instanceID: 17220}
+      Script: {instanceID: 17228}
     - Class: 114
-      Script: {instanceID: 17744}
+      Script: {instanceID: 17248}
     - Class: 114
-      Script: {instanceID: 17886}
+      Script: {instanceID: 17772}
     - Class: 114
-      Script: {instanceID: 18034}
+      Script: {instanceID: 17914}
     - Class: 114
-      Script: {instanceID: 18192}
+      Script: {instanceID: 18062}
     - Class: 114
-      Script: {instanceID: 18366}
+      Script: {instanceID: 18220}
     - Class: 114
-      Script: {instanceID: 18540}
+      Script: {instanceID: 18566}
     - Class: 114
-      Script: {instanceID: 19034}
+      Script: {instanceID: 19060}
     - Class: 114
-      Script: {instanceID: 19074}
+      Script: {instanceID: 19100}
     - Class: 114
-      Script: {instanceID: 20694}
+      Script: {instanceID: 20720}
     - Class: 114
-      Script: {instanceID: 21230}
+      Script: {instanceID: 21256}
     - Class: 114
-      Script: {instanceID: 21406}
+      Script: {instanceID: 21432}
     - Class: 114
-      Script: {instanceID: 22238}
+      Script: {instanceID: 22264}
     - Class: 114
-      Script: {instanceID: 22454}
+      Script: {instanceID: 22480}
     - Class: 114
-      Script: {instanceID: 22696}
+      Script: {instanceID: 22724}
     - Class: 114
-      Script: {instanceID: 23010}
+      Script: {instanceID: 23038}
     - Class: 114
-      Script: {instanceID: 23606}
+      Script: {instanceID: 23634}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -287,33 +287,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16600}
+      Script: {instanceID: 16626}
     - Class: 114
-      Script: {instanceID: 16602}
+      Script: {instanceID: 16628}
     - Class: 114
-      Script: {instanceID: 16650}
+      Script: {instanceID: 16630}
     - Class: 114
-      Script: {instanceID: 17330}
+      Script: {instanceID: 16678}
     - Class: 114
-      Script: {instanceID: 18034}
+      Script: {instanceID: 17358}
     - Class: 114
-      Script: {instanceID: 18366}
+      Script: {instanceID: 18062}
     - Class: 114
-      Script: {instanceID: 19534}
+      Script: {instanceID: 19560}
     - Class: 114
-      Script: {instanceID: 19826}
+      Script: {instanceID: 19852}
     - Class: 114
-      Script: {instanceID: 20494}
+      Script: {instanceID: 20520}
     - Class: 114
-      Script: {instanceID: 20634}
+      Script: {instanceID: 20660}
     - Class: 114
-      Script: {instanceID: 21462}
+      Script: {instanceID: 21488}
     - Class: 114
-      Script: {instanceID: 21820}
+      Script: {instanceID: 21846}
     - Class: 114
-      Script: {instanceID: 28902}
+      Script: {instanceID: 22584}
     - Class: 114
-      Script: {instanceID: 31868}
+      Script: {instanceID: 23958}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -347,6 +347,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -665,12 +671,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineMixingCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1477,6 +1477,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerDownMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 962221a732f430d70257ef9a55912b2f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenu
+  - hash:
+      serializedVersion: 2
       Hash: 04bf8dba8e867e9c3c936355c18443e4
     assemblyName: Cinemachine
     namespaceName: Cinemachine
@@ -1685,12 +1691,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 962221a732f430d70257ef9a55912b2f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainMenu
   - hash:
       serializedVersion: 2
       Hash: 93a85c38dcc9bcb141e1c5b0b3ed03a8
