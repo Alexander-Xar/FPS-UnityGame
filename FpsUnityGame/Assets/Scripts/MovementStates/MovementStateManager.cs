@@ -13,7 +13,7 @@ public class MovementStateManager : MonoBehaviour
     public JumpState Jump = new JumpState();
     [HideInInspector] public Animator anim;
 
-    public float currentMoveSpeed;
+    [HideInInspector] public float currentMoveSpeed;
     public float walkSpeed = 3, walkBackSpeed = 2;
     public float runSpeed = 10, runBackSpeed = 5;
     public float crouchSpeed = 2, crouchBackSpeed = 1;
@@ -75,7 +75,8 @@ public class MovementStateManager : MonoBehaviour
 
      public bool IsGrounded()
     {
-        spherePos = new Vector3(transform.position.x, transform.position.y - groundYOffset, transform.position.z);
+        //spherePos = new Vector3(transform.position.x, transform.position.y - groundYOffset, transform.position.z);
+        spherePos = new Vector3(transform.position.x, transform.position.y + controller.radius - 0.08f, transform.position.z);
         if (Physics.CheckSphere(spherePos, controller.radius - 0.05f, groundMask)) return true;
         return false;
     }

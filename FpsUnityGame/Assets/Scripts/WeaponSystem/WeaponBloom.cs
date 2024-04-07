@@ -27,7 +27,8 @@ public class WeaponBloom : MonoBehaviour
      public Vector3 BloomAngle(Transform barrelPos)
     {
         if (movement.currentState == movement.Idle) currentBloom = defaultBloomAngle;
-        else if (movement.currentState == movement.Running) currentBloom = defaultBloomAngle * walkBloomMultiplier;
+        else if (movement.currentState == movement.Walk) currentBloom = defaultBloomAngle * walkBloomMultiplier;
+        else if (movement.currentState == movement.Running) currentBloom = defaultBloomAngle * sprintBloomMultiplier;
         else if (movement.currentState == movement.Crouch)
         {
             if(movement.dir.magnitude == 0) currentBloom = defaultBloomAngle * crouchBloomMultiplier;
