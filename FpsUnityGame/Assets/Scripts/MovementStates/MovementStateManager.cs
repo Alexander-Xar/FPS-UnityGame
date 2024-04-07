@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovementStateManager : MonoBehaviour
 {
 
-    MovementBaseState currentState;
+    public MovementBaseState currentState;
     public IdleState Idle = new IdleState();
     public WalkState Walk = new WalkState();
     public CrouchState Crouch = new CrouchState();

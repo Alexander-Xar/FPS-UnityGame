@@ -385,6 +385,7 @@
 "Assets/Scripts/OptionsScreen.cs"
 "Assets/Scripts/WeaponSystem/Bullet.cs"
 "Assets/Scripts/WeaponSystem/WeaponAmmo.cs"
+"Assets/Scripts/WeaponSystem/WeaponBloom.cs"
 "Assets/Scripts/WeaponSystem/WeaponManager.cs"
 "Assets/Scripts/WeaponSystem/WeaponRecoil.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"

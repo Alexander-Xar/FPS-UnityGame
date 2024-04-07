@@ -7,7 +7,7 @@ using Cinemachine;
 public class AimStateManager : MonoBehaviour
 {
 
-    AimBaseState currentState;
+    public AimBaseState currentState;
     public HipfireState Hip = new HipfireState();
     public AimState Aim = new AimState();
     [SerializeField] float mouseSense = 1;

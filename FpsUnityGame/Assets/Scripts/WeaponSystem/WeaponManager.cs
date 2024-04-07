@@ -20,9 +20,11 @@ public class WeaponManager : MonoBehaviour
     [SerializeField] AudioClip gunShot;
     AudioSource audioSource;
     WeaponAmmo ammo;
+    WeaponBloom bloom;
+    WeaponRecoil recoil;
     ActionStateManager actions;
 
-    WeaponRecoil recoil;
+    
 
     Light muzzleFlashLight;
     ParticleSystem muzzleFlashParticles;
@@ -43,6 +45,7 @@ public class WeaponManager : MonoBehaviour
         lightIntensity = muzzleFlashLight.intensity;
         muzzleFlashLight.intensity = 0;
         ammo = GetComponent<WeaponAmmo>();
+        bloom = GetComponent<WeaponBloom>();
     }
 
     // Update is called once per frame
@@ -69,10 +72,12 @@ public class WeaponManager : MonoBehaviour
     {
         fireRateTimer = 0;
         barrelPos.LookAt(aim.aimPos);
+        barrelPos.localEulerAngles = bloom.BloomAngle(barrelPos);
         audioSource.PlayOneShot(gunShot);
         recoil.TriggerRecoil();
         TriggerMuzzleFlash();
         ammo.currentAmmo --;
+
         for(int i = 0; i < bulletsPerShot; i++)
         {
             GameObject currentBullet = Instantiate(bullet,barrelPos.position,barrelPos.rotation);
