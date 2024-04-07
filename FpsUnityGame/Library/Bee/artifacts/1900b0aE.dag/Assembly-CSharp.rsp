@@ -386,6 +386,7 @@
 "Assets/Scripts/WeaponSystem/Bullet.cs"
 "Assets/Scripts/WeaponSystem/WeaponAmmo.cs"
 "Assets/Scripts/WeaponSystem/WeaponManager.cs"
+"Assets/Scripts/WeaponSystem/WeaponRecoil.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
 "Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs"
 "Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs"

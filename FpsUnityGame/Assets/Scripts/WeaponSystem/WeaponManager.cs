@@ -16,19 +16,32 @@ public class WeaponManager : MonoBehaviour
     [SerializeField] float bulletVelocity;
     [SerializeField] int bulletsPerShot;
     AimStateManager aim;
+
     [SerializeField] AudioClip gunShot;
     AudioSource audioSource;
     WeaponAmmo ammo;
     ActionStateManager actions;
 
+    WeaponRecoil recoil;
+
+    Light muzzleFlashLight;
+    ParticleSystem muzzleFlashParticles;
+    float lightIntensity;
+    [SerializeField] float lightReturnSpeed = 20;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        recoil = GetComponent<WeaponRecoil>();
         audioSource = GetComponent<AudioSource>();
         aim = GetComponentInParent<AimStateManager>();
         fireRateTimer = fireRate;
         actions = GetComponentInParent<ActionStateManager>();
+        muzzleFlashLight = GetComponentInChildren<Light>();
+        muzzleFlashParticles = GetComponentInChildren<ParticleSystem>();
+        lightIntensity = muzzleFlashLight.intensity;
+        muzzleFlashLight.intensity = 0;
         ammo = GetComponent<WeaponAmmo>();
     }
 
@@ -36,6 +49,7 @@ public class WeaponManager : MonoBehaviour
     void Update()
     {
         if(ShouldFire()) Fire();
+        muzzleFlashLight.intensity = Mathf.Lerp(muzzleFlashLight.intensity,0,lightReturnSpeed *Time.deltaTime);
         Debug.Log(ammo.currentAmmo);
     }
 
@@ -56,6 +70,8 @@ public class WeaponManager : MonoBehaviour
         fireRateTimer = 0;
         barrelPos.LookAt(aim.aimPos);
         audioSource.PlayOneShot(gunShot);
+        recoil.TriggerRecoil();
+        TriggerMuzzleFlash();
         ammo.currentAmmo --;
         for(int i = 0; i < bulletsPerShot; i++)
         {
@@ -65,4 +81,12 @@ public class WeaponManager : MonoBehaviour
         }
         
     }
+
+    void TriggerMuzzleFlash()
+    {
+        muzzleFlashParticles.Play();
+        muzzleFlashLight.intensity = lightIntensity;
+    }
+
+
 }
