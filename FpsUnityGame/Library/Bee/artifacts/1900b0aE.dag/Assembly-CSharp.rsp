@@ -376,6 +376,7 @@
 "Assets/Scripts/AimStates/HipfireState.cs"
 "Assets/Scripts/HideMouseCursor.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/MovementStates/JumpState.cs"
 "Assets/Scripts/MovementStates/MovementBaseState.cs"
 "Assets/Scripts/MovementStates/MovementStateManager.cs"
 "Assets/Scripts/MovementStates/States/CrouchState.cs"
