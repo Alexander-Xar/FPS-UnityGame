@@ -19,11 +19,11 @@ public class MovementStateManager : MonoBehaviour
     public float crouchSpeed = 2, crouchBackSpeed = 1;
 
     [HideInInspector] public Vector3 dir;
-    [HideInInspector]public float hzInput, vInput;
+    [HideInInspector] public float hzInput, vInput;
     CharacterController controller;
 
 
-    [SerializeField]float groundYOffset;
+    [SerializeField] float groundYOffset;
     [SerializeField] LayerMask groundMask;
     Vector3 spherePos;
 
@@ -34,7 +34,7 @@ public class MovementStateManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponentInChildren<Animator>();
+        anim = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
         SwitchState(Idle);
     }
@@ -69,8 +69,8 @@ public class MovementStateManager : MonoBehaviour
 
     bool IsGrounded()
     {
-        spherePos = new Vector3(transform.position.x,transform.position.y - groundYOffset,transform.position.z);
-        if(Physics.CheckSphere(spherePos,controller.radius - 0.05f,groundMask)) return true;
+        spherePos = new Vector3(transform.position.x, transform.position.y - groundYOffset, transform.position.z);
+        if (Physics.CheckSphere(spherePos, controller.radius - 0.05f, groundMask)) return true;
         return false;
     }
 
@@ -83,8 +83,9 @@ public class MovementStateManager : MonoBehaviour
     }
 
     //private void OnDrawGizmos()
-    
-        //Gizmos.color = Color.red;
-        //Gizmos.DrawWireSphere(spherePos,controller.radius - 0.05f);
-    
+    //{
+
+       // Gizmos.color = Color.red;
+     //   Gizmos.DrawWireSphere(spherePos, controller.radius - 0.05f);
+    //}
 }
