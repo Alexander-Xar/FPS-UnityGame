@@ -379,6 +379,8 @@
 "Assets/Scripts/MovementStates/States/RunningState.cs"
 "Assets/Scripts/MovementStates/States/WalkState.cs"
 "Assets/Scripts/OptionsScreen.cs"
+"Assets/Scripts/WeaponSystem/Bullet.cs"
+"Assets/Scripts/WeaponSystem/WeaponManager.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
 "Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs"
 "Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs"
