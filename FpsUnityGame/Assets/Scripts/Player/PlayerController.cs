@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
                 if (interactable != null)
                 {
                     SetFocus(interactable);
+
                 }
             }
         }

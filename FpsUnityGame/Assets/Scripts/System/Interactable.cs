@@ -13,7 +13,7 @@ public class Interactable : MonoBehaviour
 
     public virtual void Interact ()
     {
-        //this method is meant ot be overwritten
+        //this method is meant to be overwritten
         Debug.Log("Interacting with " + transform.name);
     }
 
@@ -25,6 +25,7 @@ public class Interactable : MonoBehaviour
             if (distance <= radius)
             {
                 Debug.Log("INTERACT");
+                Interact();
                 hasInteracted = true;
             }
         }
@@ -46,6 +47,9 @@ public class Interactable : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
+        if (interactionTransform == null)
+            interactionTransform = transform;
+        
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(interactionTransform.position, radius);
     }
