@@ -374,6 +374,7 @@
 "Assets/Scripts/AimStates/AimState.cs"
 "Assets/Scripts/AimStates/AimStateManager.cs"
 "Assets/Scripts/AimStates/HipfireState.cs"
+"Assets/Scripts/EnemySystem/EnemyHealth.cs"
 "Assets/Scripts/HideMouseCursor.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MovementStates/JumpState.cs"
