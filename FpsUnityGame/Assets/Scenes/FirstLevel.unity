@@ -890,12 +890,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3386167830097158271, guid: e82797e0e93946648bb0f15035c3c59b, type: 3}
       propertyPath: m_Name
-      value: Test Item (3)
+      value: Kevlar Goggles
       objectReference: {fileID: 0}
     - target: {fileID: 5426193905080461917, guid: e82797e0e93946648bb0f15035c3c59b, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 11400000, guid: 724aca0dc118e0a42b78eb2e73bf9e81, type: 2}
+      objectReference: {fileID: 11400000, guid: faa97422e38c55b42803f5254b80de0c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2778,6 +2778,7 @@ GameObject:
   - component: {fileID: 1591350683}
   - component: {fileID: 1591350684}
   - component: {fileID: 1591350682}
+  - component: {fileID: 1591350685}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2827,6 +2828,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   space: 20
   items: []
+--- !u!114 &1591350685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591350681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aee3e06637117145b45c7993a5ca106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1602836760 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 239472883008521147, guid: f3d6cd2083c59e64892295cbb8e290a5, type: 3}
@@ -3700,6 +3713,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2324356527219175317, guid: 85d8e738d85bf324790f1ba57a85f858, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 75a7e9b762e870949a4ee779a8dcc161, type: 2}
     - target: {fileID: 6443921158911920952, guid: 85d8e738d85bf324790f1ba57a85f858, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.384428
@@ -3742,7 +3759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6722102396840701328, guid: 85d8e738d85bf324790f1ba57a85f858, type: 3}
       propertyPath: m_Name
-      value: Test Item (4)
+      value: Kevlar Vest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4023,7 +4040,7 @@ PrefabInstance:
     - target: {fileID: 866609956555146275, guid: 12d66ad3cb5e9114a9f01b2dc62df501, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 11400000, guid: e10d34e2887dc824d91347253bddf9a6, type: 2}
+      objectReference: {fileID: 11400000, guid: 07aed59192cb98147bc3cf5c49958de9, type: 2}
     - target: {fileID: 866609956555146275, guid: 12d66ad3cb5e9114a9f01b2dc62df501, type: 3}
       propertyPath: radius
       value: 2.48
@@ -4070,7 +4087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070006262447003441, guid: 12d66ad3cb5e9114a9f01b2dc62df501, type: 3}
       propertyPath: m_Name
-      value: Test Item
+      value: Kevlar Helmet
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3810213808200572010, guid: 12d66ad3cb5e9114a9f01b2dc62df501, type: 3}
