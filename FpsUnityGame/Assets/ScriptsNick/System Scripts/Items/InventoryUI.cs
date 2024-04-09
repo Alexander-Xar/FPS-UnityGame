@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class InventoryUi : MonoBehaviour
+public class InventoryUI : MonoBehaviour
 {
     public Transform itemsParent;
     public GameObject inventoryUI;
@@ -17,13 +17,15 @@ public class InventoryUi : MonoBehaviour
         slots = itemsParent.GetComponentsInChildren<InventorySlot>();
     }
 
-    
+
     void Update()
     {
+       
         if (Input.GetButtonDown("Inventory"))
         {
-            inventoryUI.SetActive(!inventoryUI.activeSelf);
+            ToggleInventoryUI();
         }
+    
     }
 
     void UpdateUI()
@@ -32,7 +34,7 @@ public class InventoryUi : MonoBehaviour
 
         for (int i = 0; i < slots.Length; i++)
         {
-            if(i < inventory.items.Count)
+            if (i < inventory.items.Count)
             {
                 slots[i].AddItem(inventory.items[i]);
             }
@@ -40,6 +42,24 @@ public class InventoryUi : MonoBehaviour
             {
                 slots[i].ClearSlot();
             }
+        }
+    }
+
+
+    void ToggleInventoryUI()
+    {
+        inventoryUI.SetActive(!inventoryUI.activeSelf);
+
+        // Lock or unlock cursor based on inventory UI state
+        if (inventoryUI.activeSelf)
+        {
+            Cursor.lockState = CursorLockMode.None; 
+            Cursor.visible = true; 
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked; 
+            Cursor.visible = false; 
         }
     }
 }

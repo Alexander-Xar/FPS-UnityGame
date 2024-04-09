@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 208672488230030390}
   - component: {fileID: 8360787757976491597}
   - component: {fileID: 866609956555146275}
-  - component: {fileID: 3810213808200572010}
   m_Layer: 0
   m_Name: Test Item
   m_TagString: Untagged
@@ -31,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 19.45, y: 0.341, z: 24.56}
-  m_LocalScale: {x: 0.50502, y: 0.50502, z: 0.50502}
+  m_LocalScale: {x: 0.50356954, y: 0.50356954, z: 0.50356954}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -43,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8070006262447003441}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300000, guid: a06995c9cb5ab0c4fa6e10c937fe62fb, type: 3}
 --- !u!23 &208672488230030390
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -64,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 703ff74b4d0fe6c42a1ce5e0a00dda51, type: 2}
+  - {fileID: 2100000, guid: 528fe954271057d4d97b7777f400c037, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -119,20 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6587cde50d87e64a92870ca0c9ffbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 1.88
   interactionTransform: {fileID: 7757829015242049320}
-  item: {fileID: 11400000, guid: 724aca0dc118e0a42b78eb2e73bf9e81, type: 2}
---- !u!114 &3810213808200572010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8070006262447003441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c1d31cadc5886f409339f36d7e1b3e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 3
-  interactionTransform: {fileID: 7757829015242049320}
+  item: {fileID: 11400000, guid: e8b7fb9fcf96a5a48816ab38866f02bf, type: 2}

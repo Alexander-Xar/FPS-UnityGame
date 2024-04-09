@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     public Interactable focus;
-    public LayerMask movementMask; //filter raycasting
+    public LayerMask movementMask; // Filter raycasting
 
     Camera cam;
     void Start()
@@ -17,59 +16,66 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            //Create ray
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
+            Collider[] colliders = Physics.OverlapSphere(transform.position, 3f, movementMask); //Adjustable radius
 
-            //Ray hits
-            if (Physics.Raycast(ray, out hit, 100))
+            Interactable closestInteractable = GetClosestInteractable(colliders);
+
+            if (closestInteractable != null)
             {
-                Debug.Log("We hit " + hit.collider.name + " " + hit.point);
-                Interactable interactable = hit.collider.GetComponent<Interactable>();
-                if (interactable != null)
-                {
-                    SetFocus(interactable);
+                SetFocus(closestInteractable);
+            }
+            else
+            {
+                RemoveFocus();
+            }
+        }
+        
+    }
 
+    Interactable GetClosestInteractable(Collider[] colliders)
+    {
+        Interactable closestInteractable = null;
+        float closestDistance = Mathf.Infinity;
+
+        foreach (Collider collider in colliders)
+        {
+            Interactable interactable = collider.GetComponent<Interactable>();
+            if (interactable != null)
+            {
+                float distanceToInteractable = Vector3.Distance(transform.position, collider.transform.position);
+                if (distanceToInteractable < closestDistance)
+                {
+                    closestInteractable = interactable;
+                    closestDistance = distanceToInteractable;
                 }
             }
         }
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            //Create ray
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            //Ray hits
-            if (Physics.Raycast(ray, out hit, 100))
-            {
-                RemoveFocus();
-                
-            }
-        }
+        return closestInteractable;
     }
 
-    void SetFocus (Interactable newFocus)
+    void SetFocus(Interactable newFocus)
     {
-        if (newFocus != focus)
+        if (newFocus != null)
         {
-            if (focus != null)
-                focus.OnDefocused();
+            if (newFocus != focus)
+            {
+                if (focus != null)
+                    focus.OnDefocused();
 
-            focus = newFocus;
-            
+                focus = newFocus;
+            }
+            newFocus.OnFocused(transform);
         }
-        newFocus.OnFocused(transform);
     }
 
     void RemoveFocus()
     {
         if (focus != null)
             focus.OnDefocused();
-        
-        
+
         focus = null;
     }
 }

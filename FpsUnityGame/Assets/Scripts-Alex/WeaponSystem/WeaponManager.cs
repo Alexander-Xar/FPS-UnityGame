@@ -25,7 +25,9 @@ public class WeaponManager : MonoBehaviour
     WeaponRecoil recoil;
     ActionStateManager actions;
 
-    
+    InventoryUI inventoryUI;
+
+
 
     Light muzzleFlashLight;
     ParticleSystem muzzleFlashParticles;
@@ -47,6 +49,8 @@ public class WeaponManager : MonoBehaviour
         muzzleFlashLight.intensity = 0;
         ammo = GetComponent<WeaponAmmo>();
         bloom = GetComponent<WeaponBloom>();
+
+        inventoryUI = FindObjectOfType<InventoryUI>();
     }
 
     // Update is called once per frame
@@ -59,6 +63,10 @@ public class WeaponManager : MonoBehaviour
 
     bool ShouldFire()
     {
+        // Check if inventory UI is active, if so, return false to prevent firing
+        if (inventoryUI != null && inventoryUI.inventoryUI.activeSelf)
+            return false;
+
         fireRateTimer += Time.deltaTime;
         if (fireRateTimer < fireRate) return false;
         if(ammo.currentAmmo == 0) return false;

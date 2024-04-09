@@ -1,7 +1,7 @@
 
 using UnityEngine;
 /* The base item class. All items should deriv from this */
-[CreateAssetMenu(fileName = "New Item", menuName = "Intentory/Item")]
+[CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Item")]
 public class Item : ScriptableObject
 {
     new public string name = "New Item";
