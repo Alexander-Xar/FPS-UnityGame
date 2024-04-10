@@ -17102,7 +17102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipSize: 30
-  extraAmmo: 120
+  extraAmmo: 30
   currentAmmo: 30
   magInSound: {fileID: 8300000, guid: dbc755e072d02bd41a520d26ded701d0, type: 3}
   magOutSound: {fileID: 8300000, guid: 4442512457e037542982b7c4c89d827b, type: 3}
@@ -26283,7 +26283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1458271340}
-  remainingTime: 5
+  remainingTime: 120
 --- !u!1 &8418047480272390466
 GameObject:
   m_ObjectHideFlags: 0

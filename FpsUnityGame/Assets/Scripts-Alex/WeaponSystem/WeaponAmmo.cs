@@ -7,7 +7,7 @@ public class WeaponAmmo : MonoBehaviour
 
     public int clipSize;
     public int extraAmmo;
-    [HideInInspector]public int currentAmmo;
+    public int currentAmmo;
 
     public AudioClip magInSound;
     public AudioClip magOutSound;
@@ -24,6 +24,11 @@ public class WeaponAmmo : MonoBehaviour
 
         _uiManager = GameObject.Find("Canvas").GetComponent<UIManager>();
 
+    }
+    private void Update()
+    {
+        _uiManager.UpdateAmmo(currentAmmo);
+        _uiManager.UpdateExtraAmmo(extraAmmo);
     }
 
 
@@ -44,14 +49,16 @@ public class WeaponAmmo : MonoBehaviour
                 extraAmmo = leftOverAmmo;
                 currentAmmo = clipSize;
             }
+
+            else
+            {
+                currentAmmo += extraAmmo;
+                extraAmmo = 0;
+            }
+
         }
-        else
-        {
-            currentAmmo += extraAmmo;
-            extraAmmo = 0;
-        }
-        _uiManager.UpdateAmmo(currentAmmo);
-        _uiManager.UpdateExtraAmmo(extraAmmo);
+       
+        
 
     }
 }
