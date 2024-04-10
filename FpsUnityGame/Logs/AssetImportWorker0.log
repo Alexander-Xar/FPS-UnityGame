@@ -15,7 +15,7 @@ C:/Users/alepc/UnityFPSProject/FpsUnityGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51758
+52356
 Successfully changed project path to: C:/Users/alepc/UnityFPSProject/FpsUnityGame
 C:/Users/alepc/UnityFPSProject/FpsUnityGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/alepc/UnityFPSProject/FpsUnityGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4596] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 3387061260 [EditorId] 3387061260 [Version] 1048832 [Id] WindowsEditor(7,Alex) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19240] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 539684724 [EditorId] 539684724 [Version] 1048832 [Id] WindowsEditor(7,Alex) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4596] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 3387061260 [EditorId] 3387061260 [Version] 1048832 [Id] WindowsEditor(7,Alex) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19240] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 539684724 [EditorId] 539684724 [Version] 1048832 [Id] WindowsEditor(7,Alex) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 6.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007765 seconds.
-- Loaded All Assemblies, in  0.410 seconds
+Registered in 0.006221 seconds.
+- Loaded All Assemblies, in  0.387 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 234 ms
+Android Extension - Scanning For ADB Devices 203 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.521 seconds
-Domain Reload Profiling: 929ms
-	BeginReloadAssembly (156ms)
+- Finished resetting the current domain, in  0.473 seconds
+Domain Reload Profiling: 859ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (151ms)
-		LoadAssemblies (157ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (147ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (131ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (521ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (474ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
+		SetupLoadedEditorAssemblies (432ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (341ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (305ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (88ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 929ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.748 seconds
-Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.729 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -133,54 +133,53 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.617 seconds
-Domain Reload Profiling: 1362ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  0.531 seconds
+Domain Reload Profiling: 1256ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (25ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (534ms)
-		LoadAssemblies (391ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (368ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (202ms)
-				TypeCache.ScanAssembly (181ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (198ms)
 			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (617ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (531ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (472ms)
+		SetupLoadedEditorAssemblies (402ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (366ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4134 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 65 unused Assets / (133.8 KB). Loaded Objects now: 4610.
 Memory consumption went from 164.5 MB to 164.4 MB.
-Total: 3.300300 ms (FindLiveObjects: 0.271900 ms CreateObjectMapping: 0.107900 ms MarkObjects: 2.806900 ms  DeleteObjects: 0.112800 ms)
+Total: 3.099500 ms (FindLiveObjects: 0.252500 ms CreateObjectMapping: 0.146500 ms MarkObjects: 2.582300 ms  DeleteObjects: 0.117300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -191,75 +190,1509 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 80551.592928 seconds.
-  path: Assets/Prefabs/Prefab-Alex.prefab
-  artifactKey: Guid(8c1122170037e144d8d561631110067a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Prefab-Alex.prefab using Guid(8c1122170037e144d8d561631110067a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c548991430147303950cbfcbba43a7a') in 0.345551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 728
-========================================================================
-Received Import Request.
-  Time since last request: 29.720381 seconds.
-  path: Assets/Scenes/FirstLevel.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FirstLevel.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1badf0fb03c6b312040d1dda6e829481') in 0.000645 seconds
+  Time since last request: 81376.460274 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(8bd1145950a084541b183fd8790d13d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(8bd1145950a084541b183fd8790d13d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c667fd9ce96086ad6ae945b63132ae') in 0.002049 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+Received Import Request.
+  Time since last request: 0.009292 seconds.
+  path: Assets/Modern Weapons/M4 Carbine/Textures/M4_Metallic.tga
+  artifactKey: Guid(d5a9a5ad1607b634d84ecf8b86e1ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/M4 Carbine/Textures/M4_Metallic.tga using Guid(d5a9a5ad1607b634d84ecf8b86e1ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362741ad5151add529f41e012cda2fdd') in 0.036656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024386 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_AlbedoTransparency.tif
+  artifactKey: Guid(28d78c5517421f047b88352f3b18e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_AlbedoTransparency.tif using Guid(28d78c5517421f047b88352f3b18e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce4a50d6a1e27120d9f5c81b995f289') in 0.020859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018116 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs
+  artifactKey: Guid(4a300d010f57451488aa99000126fbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs using Guid(4a300d010f57451488aa99000126fbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29fe3afa6923215febf9d82af4d5276') in 0.000499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002367 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/SMG1Sound
+  artifactKey: Guid(e8799a8bd917a3d4bacf0c644e5cc8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/SMG1Sound using Guid(e8799a8bd917a3d4bacf0c644e5cc8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7a4415fa05debfaae435c89093139c') in 0.000316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007092 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper1Sounds/Sniper1UnloadClip.wav
+  artifactKey: Guid(6a22a917621779b4c99f8ac06c64e00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper1Sounds/Sniper1UnloadClip.wav using Guid(6a22a917621779b4c99f8ac06c64e00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f171b97453e11ad658f42530061f2a') in 0.033895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001723 seconds.
+  path: Assets/StarterAssets/TutorialInfo/Scripts/Editor
+  artifactKey: Guid(4b8fb6083bb462f43a736bb7286ed004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/TutorialInfo/Scripts/Editor using Guid(4b8fb6083bb462f43a736bb7286ed004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff89eee4364f7d268773816fc8c9f6cc') in 0.000312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004312 seconds.
+  path: Assets/Modern Weapons/Pistol/Materials
+  artifactKey: Guid(a365925d2b8fac84e997cf840ad2d556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/Pistol/Materials using Guid(a365925d2b8fac84e997cf840ad2d556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c0b2cc7d2ee7ec69aaf1a58bcd12c7') in 0.000307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002548 seconds.
+  path: Assets/Scripts-Alex/OptionsScreen.cs
+  artifactKey: Guid(25217a7d55942604882781c3e7ec36f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/OptionsScreen.cs using Guid(25217a7d55942604882781c3e7ec36f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36eb510b3512d96bb06b5fd639bc6af2') in 0.000295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001849 seconds.
+  path: Assets/Scripts-Alex
+  artifactKey: Guid(b1f57ddb813e10a49a2ecb18dad2aaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex using Guid(b1f57ddb813e10a49a2ecb18dad2aaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f3f483add5ff79fbc4dff488d14d4d') in 0.000259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003533 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8365c14771796ff17d339b61ffd2609') in 0.000783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015689 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25524e152126d39616bdb6d7e34b8aa6') in 0.000357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012396 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs
+  artifactKey: Guid(9b16fa4001d582e46b53df6a5ca53bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs using Guid(9b16fa4001d582e46b53df6a5ca53bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256502af336593ac62dced8fa00c4c0f') in 0.000361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007216 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.000348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002272 seconds.
+  path: Assets/Modern Weapons/870 Shotgun/Textures
+  artifactKey: Guid(c298a0c86e23b734b8a99c219e60842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/870 Shotgun/Textures using Guid(c298a0c86e23b734b8a99c219e60842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147c5bc9b5ca9853b072be81ff646829') in 0.000306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001994 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/Utilities
+  artifactKey: Guid(4c83c8b1b721d664585ae691cda5617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/Utilities using Guid(4c83c8b1b721d664585ae691cda5617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fc9d7d408fb996e4bfacd68c8341ae') in 0.000280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003011 seconds.
+  path: Assets/Modern Weapons/Example.unity
+  artifactKey: Guid(a047eaf088f07e641897436fd6dd8ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/Example.unity using Guid(a047eaf088f07e641897436fd6dd8ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10179747ec6bda5bd32b6b52aaa7fd7') in 0.000311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006596 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Pause Scene/Pause Setup
+  artifactKey: Guid(240b94992c225e446a7be4af1bba53e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Pause Scene/Pause Setup using Guid(240b94992c225e446a7be4af1bba53e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d3f50cbc3d53b5fb7ea93e0a8c2f04') in 0.000273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039691 seconds.
+  path: Assets/Modern Weapons/AK-47/Textures/Ak-47_Metallic.tga
+  artifactKey: Guid(4194c236a50acfb48a27ae62623c7423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/AK-47/Textures/Ak-47_Metallic.tga using Guid(4194c236a50acfb48a27ae62623c7423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3a22054c58f1a0b6bad7cc15ded547') in 0.010471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003869 seconds.
+  path: Assets/Scripts-Alex/HideMouseCursor.cs
+  artifactKey: Guid(4b6550c4fb62e8b40b700ead302a282c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/HideMouseCursor.cs using Guid(4b6550c4fb62e8b40b700ead302a282c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4af2fa6f2f7ed4899e2f2e43ee6b70') in 0.000395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016380 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3827c021091b6ac20823141a009247') in 0.000561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001759 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Audio
+  artifactKey: Guid(ad933b20dfb62e34caaff480277dde3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Audio using Guid(ad933b20dfb62e34caaff480277dde3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975bf41d6ceca98727e6dcc3fc08170c') in 0.000272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004378 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Tec9Sounds/Tec9Load.wav
+  artifactKey: Guid(e19a4a87b7617a24cb7d64e918db11b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Tec9Sounds/Tec9Load.wav using Guid(e19a4a87b7617a24cb7d64e918db11b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdd78b89a6d30de65536ea3bdc0d22c') in 0.005270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020798 seconds.
+  path: Assets/StarterAssets/ThirdPersonController
+  artifactKey: Guid(79e0819e3ecdcfc4fba7ace9363d3f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController using Guid(79e0819e3ecdcfc4fba7ace9363d3f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344b49a149830d0883227415cc45f6a0') in 0.000330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013193 seconds.
+  path: Assets/StarterAssets
+  artifactKey: Guid(154dbc4a0a2de0e48934a7719dce9fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets using Guid(154dbc4a0a2de0e48934a7719dce9fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0b21156f96157ab60925bebd6f07a3') in 0.000304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055218 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbc69c294b875148df1aab31146fa89') in 0.000554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048584 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_AlbedoTransparency.tif
+  artifactKey: Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_AlbedoTransparency.tif using Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb77be0756b179df92e0331a2cb9777') in 0.021565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019636 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Font/OFL.txt
+  artifactKey: Guid(cb7d34e442f1ee74dbe018c9eb08f54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Font/OFL.txt using Guid(cb7d34e442f1ee74dbe018c9eb08f54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7636ae57e56373176e7e94bf540019f') in 0.000747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004921 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e2de6978ebeeda5ef859dbef4ef3fc') in 0.035454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002632 seconds.
+  path: Assets/Modern Weapons/AK-47/Materials/AK-47.mat
+  artifactKey: Guid(484464b8ff3440e40bae6737848b8e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/AK-47/Materials/AK-47.mat using Guid(484464b8ff3440e40bae6737848b8e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc2e88658d43d5c879bec233618eeba') in 0.040284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002430 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4be22d1ef66f63031ca6da898dd5950') in 0.000344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003206 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ba3ac0145f02f1243c804d2784a503') in 0.000450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017032 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures
+  artifactKey: Guid(1a6830821a7ba0e43be37cb237fe0992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures using Guid(1a6830821a7ba0e43be37cb237fe0992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee4e5e49a77744693fbaf8a7fd81153') in 0.000298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045959 seconds.
+  path: Assets/Player/Materials/VanguardBodyMat.mat
+  artifactKey: Guid(48e7f50281bc27d4cb59a6f59ecb3cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Materials/VanguardBodyMat.mat using Guid(48e7f50281bc27d4cb59a6f59ecb3cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e41c569bf4236e2a0df01985f8260d') in 0.011747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006679 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/CanvasInputs
+  artifactKey: Guid(765dd9604bdeb9e45910816e6822cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/CanvasInputs using Guid(765dd9604bdeb9e45910816e6822cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd8d48b95830aef85952c05adc85c5c') in 0.000383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015364 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png
+  artifactKey: Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png using Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a410e81de6d74f5e3db295e2ae7b0c') in 0.009407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012527 seconds.
+  path: Assets/Modern Weapons/ExampleSettings.lighting
+  artifactKey: Guid(39b303edd9d5c404a95ac46c10a1e1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/ExampleSettings.lighting using Guid(39b303edd9d5c404a95ac46c10a1e1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'c68e63155e143404bc228ba31819d47c') in 0.000799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002955 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs
+  artifactKey: Guid(909d917d73a63f940ac158d02e936645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs using Guid(909d917d73a63f940ac158d02e936645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c324e1fcbc037837f59a726e0f85b824') in 0.000285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.038625 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character
+  artifactKey: Guid(7dc6adbd54375c149bb93c272c2d6656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character using Guid(7dc6adbd54375c149bb93c272c2d6656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6ca6c5dceb390f0e6b39b0084718e2') in 0.000370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011223 seconds.
+  path: Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f4c6260e6fa5c568e1bf51fd947d12') in 0.000355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016234 seconds.
+  path: Assets/Modern Weapons/M4 Carbine/Textures
+  artifactKey: Guid(49ea5d8ba595e1343a8aa7a3ef67fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/M4 Carbine/Textures using Guid(49ea5d8ba595e1343a8aa7a3ef67fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c10fd63e1ea585b1a43600fc61d5c5a') in 0.000331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001786 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Shotgun1Sounds
+  artifactKey: Guid(0d352e14d905db045b7f1061ea5ff58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Shotgun1Sounds using Guid(0d352e14d905db045b7f1061ea5ff58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af0af3b756f5e2127df24008d8d134c') in 0.000260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002972 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_03.wav
+  artifactKey: Guid(186de84b3207156479abe98f4958fed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_03.wav using Guid(186de84b3207156479abe98f4958fed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663698e7cfe0424edcd2a5de6bcab11f') in 0.005339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002697 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Models
+  artifactKey: Guid(a54e5c4ce4b83c342af9b4e34697026e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Models using Guid(a54e5c4ce4b83c342af9b4e34697026e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ad7f26e874d1d6ec8c2dd2e971aa3a') in 0.000280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014413 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Tec9Sounds/Tec9Gunshot.wav
+  artifactKey: Guid(aa24bc1431a1a1544bfdeeaab8284d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Tec9Sounds/Tec9Gunshot.wav using Guid(aa24bc1431a1a1544bfdeeaab8284d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78e85822c5901d8ac8d631b584f8f1f') in 0.005387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006648 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png
+  artifactKey: Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png using Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6f16deea0d48fef731badfb6db7ba2') in 0.015012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017202 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Pause Scene/Pause Setup/LightingData.asset
+  artifactKey: Guid(ba87b2e5eae2a4e43894b3da77e8dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Pause Scene/Pause Setup/LightingData.asset using Guid(ba87b2e5eae2a4e43894b3da77e8dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c65860edb83613a8244351d7ba6a4b1') in 0.001097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.031167 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_Normal.tif
+  artifactKey: Guid(2a3daea46c599324e873f935ab08000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_Normal.tif using Guid(2a3daea46c599324e873f935ab08000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54d23bfd791f487a7caac7449017bc3') in 0.022211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004039 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fb3b35584e293e1af718b86d7fa852') in 0.000659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005666 seconds.
+  path: Assets/Modern Weapons/Pistol
+  artifactKey: Guid(4ddb3f735ae13864e9b0357ba6b9f575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/Pistol using Guid(4ddb3f735ae13864e9b0357ba6b9f575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c44ad6285237b456accd454874eda26') in 0.000302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005691 seconds.
+  path: Assets/Modern Weapons/870 Shotgun/Materials
+  artifactKey: Guid(b0dee3c3a51b4ca459f311b030e7df3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/870 Shotgun/Materials using Guid(b0dee3c3a51b4ca459f311b030e7df3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9352930e195b721964261cc97bbc787') in 0.000257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002410 seconds.
+  path: Assets/Modern Weapons/L96 Sniper Rifle/Textures
+  artifactKey: Guid(b93185f71f94d7e4cb7e5af5c5b7965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/L96 Sniper Rifle/Textures using Guid(b93185f71f94d7e4cb7e5af5c5b7965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bbbdbf5235e3769669f7f6dd1c5c1d') in 0.000511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002844 seconds.
+  path: Assets/Modern Weapons/L96 Sniper Rifle
+  artifactKey: Guid(5bea36768412d3f4c9646188c6dee549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/L96 Sniper Rifle using Guid(5bea36768412d3f4c9646188c6dee549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f0dd494e62944ac96b2a4dbf416428') in 0.000339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.019542 seconds.
+  path: Assets/StarterAssets/Mobile/UI
+  artifactKey: Guid(28be170aef3c9494cb26b570bd3458c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI using Guid(28be170aef3c9494cb26b570bd3458c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f77ce8f1e685c5b83e5cb15ab5d6708') in 0.000363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001975 seconds.
+  path: Assets/Modern Weapons/M4 Carbine/Materials
+  artifactKey: Guid(c535583ed239e0d4db175def48ee0b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/M4 Carbine/Materials using Guid(c535583ed239e0d4db175def48ee0b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e755e42bb9591570c4631fd4fd2803') in 0.000291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002312 seconds.
+  path: Assets/Scripts-Alex/AimStates/HipfireState.cs
+  artifactKey: Guid(d59a955cca196a54db7476e58a1eebba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/AimStates/HipfireState.cs using Guid(d59a955cca196a54db7476e58a1eebba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f54f3d1804717508f9a06ac74f0590') in 0.000270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011724 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_05.wav
+  artifactKey: Guid(14e8a8d2158bec840b56c54f5266e692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_05.wav using Guid(14e8a8d2158bec840b56c54f5266e692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438a8e5b449d8206c7193e89386f4af1') in 0.006151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005238 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper2Sounds/sniper2unload.wav
+  artifactKey: Guid(8c77a0c4581fd1f44b983ab69b8cf56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper2Sounds/sniper2unload.wav using Guid(8c77a0c4581fd1f44b983ab69b8cf56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b343b29c38ebb6a71367194899ac11fa') in 0.006532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006246 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Font/OFL-FAQ.txt
+  artifactKey: Guid(38718e9d1a034204caa8b7d95f60e57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Font/OFL-FAQ.txt using Guid(38718e9d1a034204caa8b7d95f60e57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762e69afbd611bfdc459654c5fe4ab92') in 0.000632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006941 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_06.wav
+  artifactKey: Guid(29841e7d5bbfb5b419c9ad16ca8bc4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_06.wav using Guid(29841e7d5bbfb5b419c9ad16ca8bc4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4cfc454d12f9056dba2d0a9275ba03') in 0.004952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013818 seconds.
+  path: Assets/Animations/Jumping/JumpingIdle.anim
+  artifactKey: Guid(0e956e271feb9ed41a0874e89e02c44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jumping/JumpingIdle.anim using Guid(0e956e271feb9ed41a0874e89e02c44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e511ffd49dd5c375cda6438eace69b') in 0.011932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004309 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1284b6d9112892823920c4a518038a02') in 0.000322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002352 seconds.
+  path: Assets/StarterAssets/InputSystem
+  artifactKey: Guid(2044c697941c11c4e9d9c8fa02b0a668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem using Guid(2044c697941c11c4e9d9c8fa02b0a668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f600f7cef3c9dec37a56d0cfbf6a16b4') in 0.000262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009513 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_MetallicSmoothness.tif
+  artifactKey: Guid(e73adacd5e8f6fc45a491dbd62e71ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_MetallicSmoothness.tif using Guid(e73adacd5e8f6fc45a491dbd62e71ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe0ada85876261ac46ed559ffafb703') in 0.021448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002508 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures
+  artifactKey: Guid(ad243c17755e1f748b1738c2835c1598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures using Guid(ad243c17755e1f748b1738c2835c1598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73612d0955602b5c4cf855b087a172d4') in 0.000323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002778 seconds.
+  path: Assets/Modern Weapons/Example/Ground.mat
+  artifactKey: Guid(51b6bd86f5785754fa44f50a87561a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/Example/Ground.mat using Guid(51b6bd86f5785754fa44f50a87561a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f469636e24d5685c4fd6c98f2ced7cd0') in 0.006520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006818 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c667f11b119b2eb466d6319a273399a') in 0.000456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059565 seconds.
+  path: Assets/Scripts-Alex/MovementStates/States/IdleState.cs
+  artifactKey: Guid(c670338324891a14dabad5158b334c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/MovementStates/States/IdleState.cs using Guid(c670338324891a14dabad5158b334c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3826bfc3fb2fa896b7b2f44985fbb0') in 0.000388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003057 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_04.wav
+  artifactKey: Guid(1a91fcd19acf1e54bba0945d9f390849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_04.wav using Guid(1a91fcd19acf1e54bba0945d9f390849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7459b2f0e93cfcc40b0178fbb8f8b39d') in 0.005343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006252 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99816217931a8aeb5ed07c212958aa4') in 0.018115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.026316 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models
+  artifactKey: Guid(6bf2017da21d3f641908e6929c427937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models using Guid(6bf2017da21d3f641908e6929c427937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bc5d7f6bf7d673c218c799a4c8e612') in 0.000411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006391 seconds.
+  path: Assets/Modern Weapons/L96 Sniper Rifle/Textures/L96_Normal.png
+  artifactKey: Guid(9d1a7d2d05c987046af4418f310ec449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/L96 Sniper Rifle/Textures/L96_Normal.png using Guid(9d1a7d2d05c987046af4418f310ec449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb11fcd68e0d8ecd1c650a46e8d4e5c') in 0.023390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009603 seconds.
+  path: Assets/Modern Weapons/M4 Carbine/Textures/M4_Albedo.png
+  artifactKey: Guid(71b3ee8f7f1a5c546888f210fa64a552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/M4 Carbine/Textures/M4_Albedo.png using Guid(71b3ee8f7f1a5c546888f210fa64a552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a47a954827e8dc1adc130a1faa9de8e') in 0.016442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003105 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts
+  artifactKey: Guid(66a66ce1a781a13439531b13a5cea864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts using Guid(66a66ce1a781a13439531b13a5cea864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118f00a816076adfa9e02e806816193f') in 0.000382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012215 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Animations
+  artifactKey: Guid(6b4a95faba4a079428e7b78afd0f3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations using Guid(6b4a95faba4a079428e7b78afd0f3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65b6ba7e3db987b6d56973aac05e4fe') in 0.000322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002863 seconds.
+  path: Assets/Player/PlayerController.controller
+  artifactKey: Guid(e679b4c22ef42f14daa3b7d5b7cb106a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/PlayerController.controller using Guid(e679b4c22ef42f14daa3b7d5b7cb106a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5264dce8ae47ae137034eba02a3b591') in 0.171946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.002051 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs
+  artifactKey: Guid(f2cb8c4d669392748bb924209de33b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs using Guid(f2cb8c4d669392748bb924209de33b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38bbd1998e75d65d59ed493488b834e') in 0.000318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003760 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs
+  artifactKey: Guid(65870f34fef70aa44b0f562cfc810220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs using Guid(65870f34fef70aa44b0f562cfc810220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7ddd871b0e465e549579bdb181798c') in 0.000263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010101 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_MetallicSmoothness.tif
+  artifactKey: Guid(1c98c94efa7792645972ecf95e6f86c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_MetallicSmoothness.tif using Guid(1c98c94efa7792645972ecf95e6f86c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2640984edcdd0921ba99a2870c784b34') in 0.021917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010708 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/SMG2Sounds/smg2releaseslide.wav
+  artifactKey: Guid(b4bc719ba757c27458a12b7022f7f7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/SMG2Sounds/smg2releaseslide.wav using Guid(b4bc719ba757c27458a12b7022f7f7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107debc0b4b953e721f59207e9b12b97') in 0.005119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009934 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper2Sounds/Sniper2Gunshot.wav
+  artifactKey: Guid(7141bdee85fc87743bfc8fec32b61f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper2Sounds/Sniper2Gunshot.wav using Guid(7141bdee85fc87743bfc8fec32b61f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a8fd4e75400b94fb742975868482c8') in 0.005599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008467 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77d945af6f2a2ba96621f031f3cbc4d') in 0.000597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008132 seconds.
+  path: Assets/StarterAssets/Mobile
+  artifactKey: Guid(1f5c93f63fd984044b12edab9f4438e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile using Guid(1f5c93f63fd984044b12edab9f4438e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f04598ef70326879352c303d207aa9') in 0.000281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002211 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c36a6349224b0ebebc1e51428e6fea') in 0.000239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003447 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Pistol1Sounds/Pistol1Slideback.mp3
+  artifactKey: Guid(90375daa4cc9fa44797a7a0f7a47bd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Pistol1Sounds/Pistol1Slideback.mp3 using Guid(90375daa4cc9fa44797a7a0f7a47bd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4b5de8e99658373da416dc37080b62') in 0.005434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003089 seconds.
+  path: Assets/Scripts-Alex/MainMenu.cs
+  artifactKey: Guid(5bb03dd782e926b4fb72a408f13882c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/MainMenu.cs using Guid(5bb03dd782e926b4fb72a408f13882c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afd3ca84eb3920171af5f0e159ad5c4') in 0.000285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007222 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Font/Try_BebasNeuePro.txt
+  artifactKey: Guid(d1a6e1b581ced964c9d5a988dfbe6944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Font/Try_BebasNeuePro.txt using Guid(d1a6e1b581ced964c9d5a988dfbe6944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e0e59e4817fc61a5a8d44eba614da8') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.013564 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller
+  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a232120768c21e39703f7ea572f036') in 0.007997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.006139 seconds.
+  path: Assets/Modern Weapons/AK-47/Textures/AK-47_Normal.png
+  artifactKey: Guid(842b1cbe17b49f64bbe5e86a2ccd3ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/AK-47/Textures/AK-47_Normal.png using Guid(842b1cbe17b49f64bbe5e86a2ccd3ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7af8911956a5579f9a772a12396a32') in 0.019064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009184 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper1Sounds/Sniper1HittingMag.wav
+  artifactKey: Guid(bdf1ca2eb4de98944a8f08266afb53c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper1Sounds/Sniper1HittingMag.wav using Guid(bdf1ca2eb4de98944a8f08266afb53c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9388aa7c55b2bbc37c46e8c6d52ee2c3') in 0.005814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007756 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssets.inputactions
+  artifactKey: Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputactions using Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c530a1948e957ccea2d009757f0bae8') in 0.002499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.004652 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f431fb395f9d0dbbb787304cdb51f5') in 0.000275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.033987 seconds.
+  path: Assets/Scripts-Alex/WeaponSystem/WeaponManager.cs
+  artifactKey: Guid(1ab5de5e2aa37de4da423404e8f1574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/WeaponSystem/WeaponManager.cs using Guid(1ab5de5e2aa37de4da423404e8f1574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21739be99b689f3a21c41b712aa0d4e') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007693 seconds.
+  path: Assets/Modern Weapons/AK-47/Textures
+  artifactKey: Guid(0e3558ee78634fc4d87ac2a8a93b9615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/AK-47/Textures using Guid(0e3558ee78634fc4d87ac2a8a93b9615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dacb9ebed493084657c4d77a56fccd') in 0.000305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011056 seconds.
+  path: Assets/Modern Weapons/Pistol/Textures/Pistol_Normal.png
+  artifactKey: Guid(1041a2ac19579514696640984297317a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/Pistol/Textures/Pistol_Normal.png using Guid(1041a2ac19579514696640984297317a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffce93d7b57c778e6bcb936b4442cfc') in 0.023737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017323 seconds.
+  path: Assets/Animations/Reloading.anim
+  artifactKey: Guid(086f5a62c7696c84693b6914cd618bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Reloading.anim using Guid(086f5a62c7696c84693b6914cd618bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dc64cfa8f1efd5e2cfc63dedf58f80') in 0.024172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002644 seconds.
+  path: Assets/Scripts-Alex/MovementStates/JumpState.cs
+  artifactKey: Guid(76d252e6ebacbc2499d2505f811a9b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/MovementStates/JumpState.cs using Guid(76d252e6ebacbc2499d2505f811a9b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea62bb0dfed1848c57b12bba849010f') in 0.000315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005646 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx
+  artifactKey: Guid(7a5599e28656dca40aef0bdc6a3596f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx using Guid(7a5599e28656dca40aef0bdc6a3596f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1931e5254cadb235af4b14b4d9796035') in 0.000267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002983 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs
+  artifactKey: Guid(448cd6d8e2f2cb04096e777d99974bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs using Guid(448cd6d8e2f2cb04096e777d99974bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0801b93e3c26ea8fdb03a1da63ed78') in 0.000301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002700 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs
+  artifactKey: Guid(901182334643ba1438a25accc6bd0c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs using Guid(901182334643ba1438a25accc6bd0c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0e0a097cc444aa9020a2f8e9c79c31') in 0.000278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014006 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/SMG2Sounds/smg2unload.mp3
+  artifactKey: Guid(366a5b53ba91fec46bdd76e13de913c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/SMG2Sounds/smg2unload.mp3 using Guid(366a5b53ba91fec46bdd76e13de913c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b311a145be6384f203cef61ee7e19715') in 0.005667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004237 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_01.wav
+  artifactKey: Guid(72f526a6a9890f643a88e85a61c86c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_01.wav using Guid(72f526a6a9890f643a88e85a61c86c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28a15604e6e997e44f6dcd7b3f77f6e') in 0.005006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003804 seconds.
+  path: Assets/Scripts-Alex/MovementStates/States/RunningState.cs
+  artifactKey: Guid(d55b11cb48893c7479ddfaa8ea3737b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/MovementStates/States/RunningState.cs using Guid(d55b11cb48893c7479ddfaa8ea3737b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926e162007916a39f4e75570448b8f10') in 0.000295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004648 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs
+  artifactKey: Guid(e087ecce43ebbff45a1b360637807d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs using Guid(e087ecce43ebbff45a1b360637807d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95809e48cb850acab1f8bc6730292607') in 0.000295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014237 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee8299df94be4bcd78d970fbeca2549') in 0.022430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004098 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper1Sounds/Sniper1LoadClip.mp3
+  artifactKey: Guid(f18e2d8cd1508f7458a61f9dc0936614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper1Sounds/Sniper1LoadClip.mp3 using Guid(f18e2d8cd1508f7458a61f9dc0936614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8989d3c6d1c319355e06f61cde4b75') in 0.005189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002383 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Audio/Effects
+  artifactKey: Guid(7c22daa37561324499972442845ff9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Audio/Effects using Guid(7c22daa37561324499972442845ff9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee025b4150cf7203fcca81c35bfd9953') in 0.000262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.138911 seconds.
+  path: Assets/Modern Weapons/870 Shotgun/Textures/870_Shotgun_Metallic.tga
+  artifactKey: Guid(f8731de1bdf5e764ba7c77cf00aa9bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/870 Shotgun/Textures/870_Shotgun_Metallic.tga using Guid(f8731de1bdf5e764ba7c77cf00aa9bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12630b85f44a58db0f24e64d51d00051') in 0.035397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003179 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs
+  artifactKey: Guid(26e54e5a728a9234ab24fcf1460ed8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs using Guid(26e54e5a728a9234ab24fcf1460ed8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc71df8ab624d91623615068fc79995') in 0.000373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003121 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png
+  artifactKey: Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png using Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722fbc8403548dbe182fd0bb1edc2fb7') in 0.010304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009294 seconds.
+  path: Assets/Modern Weapons/M4 Carbine/Textures/M4_Normal.png
+  artifactKey: Guid(c92a4bd515d342841bb2e6d1b118d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/M4 Carbine/Textures/M4_Normal.png using Guid(c92a4bd515d342841bb2e6d1b118d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6636632aece772b92d98caa03310ed5') in 0.032829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008069 seconds.
+  path: Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8445fe21a9967833e0126f906d656ec') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002712 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Pause Scene/Pause Setup.unity
+  artifactKey: Guid(d18591eb04466fd428794a14431f387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Pause Scene/Pause Setup.unity using Guid(d18591eb04466fd428794a14431f387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245302e47d479ea82e77ad558f453e88') in 0.000290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005607 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Materials
+  artifactKey: Guid(33aadff248c9bf146ac10054f78f58cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials using Guid(33aadff248c9bf146ac10054f78f58cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e162101815b0347807f155b570fd2852') in 0.000291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003718 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Tec9Sounds/Tec9Unload.wav
+  artifactKey: Guid(1c7bc891aa74b80448394d6d783a5741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Tec9Sounds/Tec9Unload.wav using Guid(1c7bc891aa74b80448394d6d783a5741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58138465154fd6d860b9590e44a1ef6') in 0.006973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003313 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d0d565c80eed902ab8a5b1ea83cabb') in 0.000601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.023118 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png
+  artifactKey: Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png using Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc97ac1164e1a9924bc98f28c8a0591c') in 0.011885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005323 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scripts
+  artifactKey: Guid(1a51399578ff79c4f94f828a46603a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Scripts using Guid(1a51399578ff79c4f94f828a46603a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4829a8875e78b2611cec846f2b070412') in 0.000364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005991 seconds.
+  path: Assets/Scripts-Alex/ActionStates/ActionStateManager.cs
+  artifactKey: Guid(a3bfc22d1f6627a4797c1c3acdfda3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/ActionStates/ActionStateManager.cs using Guid(a3bfc22d1f6627a4797c1c3acdfda3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a180bef80fe589f063c306d4f96ec373') in 0.000303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003218 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_10.wav
+  artifactKey: Guid(a3194b8bbc96ef84fab1f98f4b7dae3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_10.wav using Guid(a3194b8bbc96ef84fab1f98f4b7dae3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb82684f36750e3fd4aa545db0aae8d') in 0.005857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003138 seconds.
+  path: Assets/Scripts-Alex/EnemySystem/EnemyHealth.cs
+  artifactKey: Guid(54f4587574aa2e3439d4d7f1f745f7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/EnemySystem/EnemyHealth.cs using Guid(54f4587574aa2e3439d4d7f1f745f7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6704d4817b147c686d8a0ac37da9982d') in 0.000294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021910 seconds.
+  path: Assets/Modern Weapons/M4 Carbine/Materials/M4_Carbine.mat
+  artifactKey: Guid(bcfb2b969dcb613498b4bb959cfb99e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/M4 Carbine/Materials/M4_Carbine.mat using Guid(bcfb2b969dcb613498b4bb959cfb99e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c7905d707e7ce1675b638de47f5cd7') in 0.060206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.013255 seconds.
+  path: Assets/StarterAssets/TutorialInfo/Scripts
+  artifactKey: Guid(94b9209338700394894911a3c1e68f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/TutorialInfo/Scripts using Guid(94b9209338700394894911a3c1e68f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a3dfebad221775601db4f1ce41ab90') in 0.000403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002807 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4b461b16214a6cc73cf8c5a0559c9c') in 0.000603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005583 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d18c911266a1cd5ffdbe630dccf1ba8') in 0.000444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013015 seconds.
+  path: Assets/Modern Weapons/Pistol/Textures/Pistol_Albedo.png
+  artifactKey: Guid(da20eaf0b2a20964c899453bff2bd310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/Pistol/Textures/Pistol_Albedo.png using Guid(da20eaf0b2a20964c899453bff2bd310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f4bdda073d6568a950b9af7c857cee') in 0.022156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003533 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e0872a344a2232916630376c77a2c5') in 0.000676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002693 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61249d3c7b42a5abb2dd8204523b543a') in 0.026837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003565 seconds.
+  path: Assets/Scripts-Alex/ActionStates/DefaultState.cs
+  artifactKey: Guid(c793a2409b202a74a800148eee8eacee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/ActionStates/DefaultState.cs using Guid(c793a2409b202a74a800148eee8eacee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4d8343347c54e2dc31e0a5770782c9') in 0.000348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007645 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Pause Scene/Pause Setup/ReflectionProbe-0.exr
+  artifactKey: Guid(2304230511eb91947a0b5323c0d4279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Pause Scene/Pause Setup/ReflectionProbe-0.exr using Guid(2304230511eb91947a0b5323c0d4279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60093d8d15292018309c22b2bdcf82fc') in 0.014317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018975 seconds.
+  path: Assets/Modern Weapons/870 Shotgun/Materials/870_Shotgun.mat
+  artifactKey: Guid(5b361911c522ece47a5264a8f28cb5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/870 Shotgun/Materials/870_Shotgun.mat using Guid(5b361911c522ece47a5264a8f28cb5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69728281af4b25007f16604c486f128') in 0.082547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.005307 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24e2238f39a073e43ec9f657aa9c301') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003319 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54da9ef754e53aa03791c3396548501f') in 0.000443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003571 seconds.
+  path: Assets/Modern Weapons/Pistol/Textures
+  artifactKey: Guid(3cd759a93799fd9479c23cc0b735a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/Pistol/Textures using Guid(3cd759a93799fd9479c23cc0b735a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0ba082d6117c9953c14b986dbe8ce7') in 0.000249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005265 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Font/BebasNeue-Regular SDF.asset
+  artifactKey: Guid(98d773a76f0f35b43bf7d23b933e08ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Font/BebasNeue-Regular SDF.asset using Guid(98d773a76f0f35b43bf7d23b933e08ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b467327569b0e61a23c7cbaf6dfd65') in 0.018961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.005537 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_MetallicSmoothness.tif
+  artifactKey: Guid(b41d630ccc344454bb1f27587f9acd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_MetallicSmoothness.tif using Guid(b41d630ccc344454bb1f27587f9acd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0738fc8b3210e67564fb8e3b0630fb') in 0.037122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009191 seconds.
+  path: Assets/Scripts-Alex/ActionStates/ReloadState.cs
+  artifactKey: Guid(da5ce601966dc87409f242baf6c615d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/ActionStates/ReloadState.cs using Guid(da5ce601966dc87409f242baf6c615d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3e04d7c03f2b921be5d5556e620333') in 0.000731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004258 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768b56e3c989006b4dba8f4263559dd0') in 0.000467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.019688 seconds.
+  path: Assets/Modern Weapons/870 Shotgun
+  artifactKey: Guid(08bbcb36cd175864286206465e5a4b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/870 Shotgun using Guid(08bbcb36cd175864286206465e5a4b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa2db67d2b13909c180b37c559dc5c0') in 0.000372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006368 seconds.
+  path: Assets/Modern Weapons/870 Shotgun/Textures/870_Shotgun_Albedo.png
+  artifactKey: Guid(ba3473290f02b6a489418d05090f7549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/870 Shotgun/Textures/870_Shotgun_Albedo.png using Guid(ba3473290f02b6a489418d05090f7549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe1b7f2c402e1699b78b59b295ad685') in 0.018231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005367 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33bdd082ff99d64b8cdc5358ddd697f') in 0.000614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004182 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9e78895d74c0b5c6cd976c12320050') in 0.000694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006110 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials
+  artifactKey: Guid(7f6599a547b7c7c4da2fc831b3fb6a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials using Guid(7f6599a547b7c7c4da2fc831b3fb6a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0b204c94ce04336f9bec5ce321089c') in 0.000300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002663 seconds.
+  path: Assets/Modern Weapons/Example
+  artifactKey: Guid(bf30c0ea4cb8ffc48a36ce21a48d0b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/Example using Guid(bf30c0ea4cb8ffc48a36ce21a48d0b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5436ab5ccf7622a4118ba4ecea39debc') in 0.000261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005848 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_09.wav
+  artifactKey: Guid(274649b0e221539409070ebf6c18918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_09.wav using Guid(274649b0e221539409070ebf6c18918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0c95660907da445b9e8f60025c21ad') in 0.005886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006017 seconds.
+  path: Assets/Modern Weapons/AK-47/Materials
+  artifactKey: Guid(d9e5704aff4fbd941a3d82a21f390ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/AK-47/Materials using Guid(d9e5704aff4fbd941a3d82a21f390ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeeb6e9c8c459e9316de1dbcfbdfb56') in 0.000340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006126 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7eab248413d5372ca0e38f8fa86db8') in 0.000272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032199 seconds.
+  path: Assets/Modern Weapons/L96 Sniper Rifle/Materials
+  artifactKey: Guid(37ba1c57fcd27074182fb120077624c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/L96 Sniper Rifle/Materials using Guid(37ba1c57fcd27074182fb120077624c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f323b69eebaf8a106bb478b8971747ab') in 0.000375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001961 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Pause Scene
+  artifactKey: Guid(76f5e154dd6ca744b8939c7d38dfc61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Pause Scene using Guid(76f5e154dd6ca744b8939c7d38dfc61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf1516a4930d42d1fe2f2a5bbdaeacc') in 0.000331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.035108 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_Normal.tif
+  artifactKey: Guid(104a45460231b8d4783e0bb2223be28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_Normal.tif using Guid(104a45460231b8d4783e0bb2223be28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d173244895c81f8fc0650148265389') in 0.036389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004350 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/SMG2Sounds
+  artifactKey: Guid(cc5ed73a3546cc74cb8c6ada8b6498d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/SMG2Sounds using Guid(cc5ed73a3546cc74cb8c6ada8b6498d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd8a7d673e1b1847a2b440e6abb938c') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002030 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Pistol1Sounds
+  artifactKey: Guid(d8cb0937059fb1146a818c407b0d0c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Pistol1Sounds using Guid(d8cb0937059fb1146a818c407b0d0c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6d55b8a52c6d9b7bf4344ffc641dd3') in 0.000267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002131 seconds.
+  path: Assets/Modern Weapons/AK-47
+  artifactKey: Guid(0c4c058f0c813314cbcc92cc54a01c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/AK-47 using Guid(0c4c058f0c813314cbcc92cc54a01c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24dc903347d53a53c96444aeead559aa') in 0.000256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006870 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs
+  artifactKey: Guid(e2fd57bd9ef7f414bab484edd304403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs using Guid(e2fd57bd9ef7f414bab484edd304403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e7466b2bd3671af589140304e1dd00') in 0.000279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.020862 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_AlbedoTransparency.tif
+  artifactKey: Guid(c6dc62700fa06274b9608a9fce8ed21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_AlbedoTransparency.tif using Guid(c6dc62700fa06274b9608a9fce8ed21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6698d947232984a4216ba4aff3fb79cb') in 0.038835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004851 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_02.wav
+  artifactKey: Guid(85016e0f2b01da248b9663dd49a161b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_02.wav using Guid(85016e0f2b01da248b9663dd49a161b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc0d734d28138a7d34587b38fbf7bbf') in 0.006176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007764 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper1Sounds
+  artifactKey: Guid(591176a5aa4868641bb33f8432562b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper1Sounds using Guid(591176a5aa4868641bb33f8432562b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c3bef8147a5933fa03f68556e01844') in 0.000298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.047248 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b03e1aeac5b5f7fa05671e0d17f7fe4') in 0.000559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003470 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper2Sounds/sniper2load.wav
+  artifactKey: Guid(cda0235cb03d8a345815877d18dfbffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper2Sounds/sniper2load.wav using Guid(cda0235cb03d8a345815877d18dfbffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c81066e549b419d025e33c16907b2aa') in 0.007809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024354 seconds.
+  path: Assets/Modern Weapons/AK-47/Textures/Ak-47_Albedo.png
+  artifactKey: Guid(6cde418a7e529be41aafe5ae5d2ac5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/AK-47/Textures/Ak-47_Albedo.png using Guid(6cde418a7e529be41aafe5ae5d2ac5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381d39695955f18dbe0f22ad57eb03e8') in 0.020480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006304 seconds.
+  path: Assets/Modern Weapons/Pistol/Textures/Pistol_Metallic.tga
+  artifactKey: Guid(3681be8287d62d744ba97cf47db2d66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/Pistol/Textures/Pistol_Metallic.tga using Guid(3681be8287d62d744ba97cf47db2d66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80af620d32a500d22b121a9e7c59fcd6') in 0.010246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020931 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper1Sounds/Sniper1Gunshot.wav
+  artifactKey: Guid(82ca27e5d8b94c6468659c860e6487c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper1Sounds/Sniper1Gunshot.wav using Guid(82ca27e5d8b94c6468659c860e6487c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4253c40c6279fef5cd18c4f8da3f4d25') in 0.006906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014978 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_08.wav
+  artifactKey: Guid(67c8b33e424ccdc4486edf538ab91c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_08.wav using Guid(67c8b33e424ccdc4486edf538ab91c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d48f852ae7dd877a1dd6c7ba851e5c6') in 0.005843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002313 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs
+  artifactKey: Guid(f3f410dde204f1d4db3d7ad548967cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs using Guid(f3f410dde204f1d4db3d7ad548967cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfb64d6aa76b730a6c0554c6b7a6b65') in 0.000278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008755 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09024a5c4d6c909367ed8c98fd5042d5') in 0.000585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001746 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Tec9Sounds
+  artifactKey: Guid(f36c66af515f2b841b3e401be83c00aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Tec9Sounds using Guid(f36c66af515f2b841b3e401be83c00aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03322c358dad677b34dfc752e8e275e7') in 0.000255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001725 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056cf6914e695e5184ae907488c442f7') in 0.000234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008555 seconds.
+  path: Assets/Modern Weapons/870 Shotgun/Textures/870_Shotgun_Normal.png
+  artifactKey: Guid(eceb15899b33fcd47a73ca733ed4cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/870 Shotgun/Textures/870_Shotgun_Normal.png using Guid(eceb15899b33fcd47a73ca733ed4cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d426aa999a8e9aaf18f0cbfa65e7a7') in 0.034461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003636 seconds.
+  path: Assets/Modern Weapons/Pistol/Materials/Pistol.mat
+  artifactKey: Guid(27a2e426a50f9f74faf91f6a4ad513b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/Pistol/Materials/Pistol.mat using Guid(27a2e426a50f9f74faf91f6a4ad513b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afd3a5b7f610f91458588a99dc225bc') in 0.051325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.005691 seconds.
+  path: Assets/Scripts-Alex/ActionStates/ActionBaseState.cs
+  artifactKey: Guid(11e77d2c8bac314468d89bf24f86bd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts-Alex/ActionStates/ActionBaseState.cs using Guid(11e77d2c8bac314468d89bf24f86bd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f653e5425ddfc7d7a978ab59768ecfe2') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002257 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Ak47Sounds
+  artifactKey: Guid(f5b54edd748c1e244b0e06c430c8b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Ak47Sounds using Guid(f5b54edd748c1e244b0e06c430c8b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125a7de2e82292756b9b46c1dbd55d0f') in 0.000278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002751 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Shotgun2Sounds
+  artifactKey: Guid(45ce14dc4d437774583b15f2283259f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Shotgun2Sounds using Guid(45ce14dc4d437774583b15f2283259f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c9980e69c85f36f201c92ffc9cc210') in 0.000477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004793 seconds.
+  path: Assets/Modern Weapons/L96 Sniper Rifle/Textures/L96_Albedo.png
+  artifactKey: Guid(290da99795d6cfe4f9e1bc0fba28f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/L96 Sniper Rifle/Textures/L96_Albedo.png using Guid(290da99795d6cfe4f9e1bc0fba28f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd324d714c332d288d45e9d30bbc51e79') in 0.022087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.028410 seconds.
+  path: Assets/Modern Weapons/L96 Sniper Rifle/Textures/L96_Metallic.tga
+  artifactKey: Guid(361663f7e6aa79145b9635953b2eba24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/L96 Sniper Rifle/Textures/L96_Metallic.tga using Guid(361663f7e6aa79145b9635953b2eba24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141dd83449bf9b7a762569d5b9bb5fd7') in 0.017352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004136 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd58cfb727ebe1d7b8534db125f7d41') in 0.000513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014709 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/SMG2Sounds/smg2load.mp3
+  artifactKey: Guid(e730d841ed4a6c1409968f7124e7f270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/SMG2Sounds/smg2load.mp3 using Guid(e730d841ed4a6c1409968f7124e7f270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4702837a7a0506aed402346fb42fb8a4') in 0.006601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003979 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(cb108419270ca8943a517a88b661f6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(cb108419270ca8943a517a88b661f6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3ec6ee638639047eb0aa212c1a2bd0') in 0.000272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002289 seconds.
+  path: Assets/StarterAssets/Environment/Art
+  artifactKey: Guid(b1739dd7c665c7149bd40eedfb3b6150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art using Guid(b1739dd7c665c7149bd40eedfb3b6150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8520969e93848f13cadb0afecb45b654') in 0.000293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017410 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_07.wav
+  artifactKey: Guid(dd1af302b8902684d9381de1f2d3a5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_07.wav using Guid(dd1af302b8902684d9381de1f2d3a5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebe3b9ae344e44aaba94ec11fd9e0da') in 0.005639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.034372 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_Normal.tif
+  artifactKey: Guid(b2c5d9c39850da946ae135dcb57faaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_Normal.tif using Guid(b2c5d9c39850da946ae135dcb57faaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48b97438b7c94f20e0180819d3bcd95') in 0.038706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004571 seconds.
+  path: Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper2Sounds
+  artifactKey: Guid(6ff298bde669fb34aa6d760cd50baf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAudio Tracks/GunSounds/GunShotAudio/Sniper2Sounds using Guid(6ff298bde669fb34aa6d760cd50baf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fabfdedbdabf736403f2c6285b3b3c2') in 0.000342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002031 seconds.
+  path: Assets/StarterAssets/Environment
+  artifactKey: Guid(203a00dd78d09e649a5dfd8b60724ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment using Guid(203a00dd78d09e649a5dfd8b60724ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2aa5dad09c199cd6093a4254b346be4') in 0.000268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002072 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Pause Scene/Material
+  artifactKey: Guid(a064e8c5f8c65bd41807b0b115d4bb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Pause Scene/Material using Guid(a064e8c5f8c65bd41807b0b115d4bb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e02b77a3ebb9fbb470c6bdb11b8cb5') in 0.000325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010108 seconds.
+  path: Assets/StarterAssets/TutorialInfo
+  artifactKey: Guid(4e3f18aceb33d4c40afb3fd05ef1dfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/TutorialInfo using Guid(4e3f18aceb33d4c40afb3fd05ef1dfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ea113e2c912da17be89010364703f7') in 0.000314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001765 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb8c8d526b56b02a177794fb5aaffbd') in 0.000260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004464 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Font/About.txt
+  artifactKey: Guid(71dce0030ffc44a4aa2442427491968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Font/About.txt using Guid(71dce0030ffc44a4aa2442427491968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c3e0c8485bc9fb6bcfefc4579b9cd6') in 0.000585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.017424 seconds.
+  path: Assets/Modern Weapons/L96 Sniper Rifle/Materials/L96_Sniper_Rifle.mat
+  artifactKey: Guid(ac814363a1d80b442844a152aaae96a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/L96 Sniper Rifle/Materials/L96_Sniper_Rifle.mat using Guid(ac814363a1d80b442844a152aaae96a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dd3df83b216bd641c58287d713a9dd') in 0.058093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.418 seconds
-Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FpsUnityGame
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.787 seconds
-Domain Reload Profiling: 1203ms
-	BeginReloadAssembly (133ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (226ms)
-		LoadAssemblies (271ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (787ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (387ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (286ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4109 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (108.2 KB). Loaded Objects now: 4638.
-Memory consumption went from 162.1 MB to 162.0 MB.
-Total: 2.479200 ms (FindLiveObjects: 0.174500 ms CreateObjectMapping: 0.088600 ms MarkObjects: 2.132200 ms  DeleteObjects: 0.083000 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (74.3 KB). Loaded Objects now: 4661.
+Memory consumption went from 95.7 MB to 95.6 MB.
+Total: 5.156100 ms (FindLiveObjects: 1.723600 ms CreateObjectMapping: 0.152700 ms MarkObjects: 3.241200 ms  DeleteObjects: 0.037700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -276,11 +1709,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 335.758525 seconds.
-  path: Assets/Vanguard By T. Choonyung.fbx
-  artifactKey: Guid(5d608072f4e11494fa1b843a4744b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vanguard By T. Choonyung.fbx using Guid(5d608072f4e11494fa1b843a4744b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d67ce0dee729f1bb2febab77326c18') in 0.163172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 147
