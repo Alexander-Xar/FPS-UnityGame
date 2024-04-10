@@ -13,24 +13,32 @@ public class WeaponAmmo : MonoBehaviour
     public AudioClip magOutSound;
     public AudioClip releaseSlideSound;
 
+    private UIManager _uiManager;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         currentAmmo = clipSize;
+
+        _uiManager = GameObject.Find("Canvas").GetComponent<UIManager>();
+
     }
 
 
     public void Reload()
     {
-        if(extraAmmo >- clipSize )
+
+        if (extraAmmo >= clipSize)
         {
             int ammoToReload = clipSize - currentAmmo;
             extraAmmo -= ammoToReload;
             currentAmmo += ammoToReload;
         }
-        else if( extraAmmo > 0 )
+        else if (extraAmmo > 0)
         {
-            if( extraAmmo + currentAmmo> clipSize )
+            if (extraAmmo + currentAmmo > clipSize)
             {
                 int leftOverAmmo = extraAmmo + currentAmmo - clipSize;
                 extraAmmo = leftOverAmmo;
@@ -42,6 +50,8 @@ public class WeaponAmmo : MonoBehaviour
             currentAmmo += extraAmmo;
             extraAmmo = 0;
         }
-      
+        _uiManager.UpdateAmmo(currentAmmo);
+        _uiManager.UpdateExtraAmmo(extraAmmo);
+
     }
 }

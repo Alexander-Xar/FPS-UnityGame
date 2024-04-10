@@ -27,6 +27,8 @@ public class WeaponManager : MonoBehaviour
 
     InventoryUI inventoryUI;
 
+    private UIManager _uiManager;
+
 
 
     Light muzzleFlashLight;
@@ -51,6 +53,8 @@ public class WeaponManager : MonoBehaviour
         bloom = GetComponent<WeaponBloom>();
 
         inventoryUI = FindObjectOfType<InventoryUI>();
+
+        _uiManager = GameObject.Find("Canvas").GetComponent<UIManager>();
     }
 
     // Update is called once per frame
@@ -79,15 +83,19 @@ public class WeaponManager : MonoBehaviour
 
     private void Fire()
     {
+        
+
         fireRateTimer = 0;
         barrelPos.LookAt(aim.aimPos);
         barrelPos.localEulerAngles = bloom.BloomAngle(barrelPos);
         audioSource.PlayOneShot(gunShot);
         recoil.TriggerRecoil();
         TriggerMuzzleFlash();
-        ammo.currentAmmo --;
+        ammo.currentAmmo--;
+        _uiManager.UpdateAmmo(ammo.currentAmmo);
 
-        for(int i = 0; i < bulletsPerShot; i++)
+
+        for (int i = 0; i < bulletsPerShot; i++)
         {
             GameObject currentBullet = Instantiate(bullet,barrelPos.position,barrelPos.rotation);
 
