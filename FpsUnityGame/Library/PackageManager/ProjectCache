@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638480443711457820
-    m_Hash: 216372005
+      ticks: 638483816808153141
+    m_Hash: 3804702210
   m_LockFileStatus:
     m_FilePath: C:/Users/alepc/UnityFPSProject/FpsUnityGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638480443711493039
-    m_Hash: 3000976530
+      ticks: 638483816808163124
+    m_Hash: 3952132590
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
